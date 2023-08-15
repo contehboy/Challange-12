@@ -123,7 +123,7 @@ class Mysql {
     });
   }
 
-  // Save employee in database
+  // Save employees in database
   async saveEmployee(firstName, lastName, roleId, manager) {
     return new Promise((resolve, reject) => {
       this.connection.query(
