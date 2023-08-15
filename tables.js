@@ -39,6 +39,7 @@ class RenderTable {
 
     return table;
   }
+
   // Render roles table
   employeesTable(employees) {
     const table = new Table({
